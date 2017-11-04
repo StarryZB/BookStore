@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - bookstore@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="bookstore">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="bbs"/>
+    <schema id="3" name="cart"/>
+    <schema id="4" name="hibernate"/>
+    <schema id="5" name="information_schema"/>
+    <schema id="6" name="mysql"/>
+    <schema id="7" name="performance_schema"/>
+    <schema id="8" name="sys"/>
+    <table id="9" parent="1" name="product"/>
+    <column id="10" parent="9" name="book_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="11" parent="9" name="book_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="12" parent="9" name="book_price">
+      <mandatory>1</mandatory>
+      <data-type>double|0</data-type>
+    </column>
+    <key id="13" parent="9" name="PRIMARY">
+      <columns>book_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
