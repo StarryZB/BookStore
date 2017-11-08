@@ -56,7 +56,7 @@ public class DBUtil {
         }
     }
     public static void closestmt(Statement stmt) {
-        if(stmt != null) {
+        if (stmt != null) {
             try {
                 stmt.close();
             } catch (SQLException e) {
@@ -65,7 +65,7 @@ public class DBUtil {
         }
     }
     public static void closeconn(Connection conn) {
-        if(conn != null) {
+        if (conn != null) {
             try {
                 conn.close();
             } catch (SQLException e) {

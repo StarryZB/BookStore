@@ -27,36 +27,36 @@
 </div>
 
 <div>
-    <form action="buy.do" method="post">
-        <table class="table table-hover">
-            <thead>
-            <th>商品</th>
-            <th>商品名称</th>
-            <th>价格</th>'
-            <th>买买买</th>
-            </thead>
-            <tbody>
-            <%
-                List<Product> productList = (List<Product>) request.getAttribute("listproduct");
-                Iterator<Product> iterator = productList.iterator();
-                while (iterator.hasNext()) {
-                    Product product = iterator.next();
-            %>
-            <tr id="<%=product.getBook_id()%>">
-                <td><img width="20px" src="book.png"/></td>
-                <td><%=product.getBook_name()%></td>
-                <td><%=product.getBook_price()%></td>
-                <input type="hidden" name="book_id" value="<%=product.getBook_id()%>">
-                <td><input type="submit" value="购买"></td>
-                <%--需要获取tr的值--%>
-            </tr>
-            <%
-                }
-            %>
-            </tbody>
-        </table>
-    </form>
-
+    <table class="table table-hover">
+        <thead>
+        <th>商品</th>
+        <th>商品名称</th>
+        <th>价格</th>'
+        <th>买买买</th>
+        </thead>
+        <tbody>
+        <%
+            List<Product> productList = (List<Product>) request.getAttribute("listproduct");
+            Iterator<Product> iterator = productList.iterator();
+            while (iterator.hasNext()) {
+                Product product = iterator.next();
+        %>
+        <tr id="<%=product.getBook_id()%>">
+            <td><img width="20px" src="book.png"/></td>
+            <td><%=product.getBook_name()%></td>
+            <td><%=product.getBook_price()%></td>
+            <td>
+                <form action="buy.do" method="post">
+                    <input type="hidden" name="book_id" value="<%=product.getBook_id()%>">
+                    <input type="submit" value="购买">
+                </form>
+            </td>
+        </tr>
+        <%
+            }
+        %>
+        </tbody>
+    </table>
 </div>
 
 
