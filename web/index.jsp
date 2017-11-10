@@ -16,6 +16,7 @@
       账号: <input type="text" name="name"> <br>
       密码: <input type="password" name="password"> <br>
       <input type="submit" value="登录">
+      <input type="reset" value="重置">
     </form>
   </div>
   </body>

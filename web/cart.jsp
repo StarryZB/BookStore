@@ -23,10 +23,12 @@
 <div>
     <table class="table table-hover">
         <thead>
-        <th>商品</th>
-        <th>商品名称</th>
-        <th>价格</th>'
-        <th>数目</th>
+        <th width="20%">商品</th>
+        <th width="40%">商品名称</th>
+        <th width="20%">价格</th>
+        <th></th>
+        <th width="50px">数目</th>
+        <th></th>
         </thead>
         <tbody>
         <%
@@ -40,7 +42,17 @@
             <td><img width="20px" src="book.png"/></td>
             <td><%=product.getBook_name()%></td>
             <td><%=product.getBook_price()%></td>
-            <td><%=book_num%></td>
+            <td width="10">
+                <form method="post">
+                    <input type="submit" value="减">
+                </form>
+            </td>
+            <td width="50px"><%=book_num%></td>
+            <td width="10">
+                <form method="post">
+                    <input type="submit" value="加">
+                </form>
+            </td>
         </tr>
         <%
             }
