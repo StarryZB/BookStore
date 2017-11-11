@@ -19,7 +19,7 @@
 </head>
 <body>
 <%
-    User user = (User) request.getAttribute("user");
+    User user = (User) session.getAttribute("user");
 %>
 <div align="center">
     <font face="楷体" size="6">欢迎用户：<%=user.getName()%></font>
@@ -58,13 +58,6 @@
         </tbody>
     </table>
 </div>
-
-
-
-
-
-
-
 
 
 </body>

@@ -20,14 +20,17 @@ import java.util.List;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        User user = new User();
-        String name = req.getParameter("name");
-        String password = req.getParameter("password");
-        user.setName(name);
-        user.setPsssword(password);
+        HttpSession session = req.getSession();
+        if (session.getAttribute("user") == null) {
+            User user = new User();
+            String name = req.getParameter("name");
+            String password = req.getParameter("password");
+            user.setName(name);
+            user.setPsssword(password);
+            session.setAttribute("user",user);
+        }
         List<Product> listProduct = new ProductDao().getListProduct();
         req.setAttribute("listproduct",listProduct);
-        req.setAttribute("user",user);
         req.getRequestDispatcher("product.jsp").forward(req,resp);
     }
 

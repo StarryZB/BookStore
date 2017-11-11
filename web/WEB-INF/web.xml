@@ -23,4 +23,44 @@
         <servlet-name>Buy</servlet-name>
         <url-pattern>/buy.do</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>com.servlet.DeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/delete.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>com.servlet.AddServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/add.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Back</servlet-name>
+        <servlet-class>com.servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Back</servlet-name>
+        <url-pattern>/back.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckOut</servlet-name>
+        <servlet-class>com.servlet.CheckOutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckOut</servlet-name>
+        <url-pattern>/checkout.do</url-pattern>
+    </servlet-mapping>
 </web-app>

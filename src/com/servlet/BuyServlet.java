@@ -23,7 +23,7 @@ public class BuyServlet extends HttpServlet {
         HttpSession session = req.getSession();
         String book_id = req.getParameter("book_id");
         Product product = new ProductDao().getProductById(book_id);//用book_id，通过id取得实体类
-
+        product.setBook_id(Integer.parseInt(book_id));
         if (session.getAttribute("idproductmap") != null) {
             Map<String,Product> idproductmap = (Map<String, Product>) session.getAttribute("idproductmap");
             Map<String,Integer> idnummap = (Map<String, Integer>) session.getAttribute("idnummap");

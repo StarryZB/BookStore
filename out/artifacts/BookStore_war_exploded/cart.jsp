@@ -20,6 +20,9 @@
     Map<String,Integer> idnummap = (Map<String, Integer>) session.getAttribute("idnummap");
 %>
 
+<div align="center">
+    <font face="楷体" size="6">购物车</font>
+</div>
 <div>
     <table class="table table-hover">
         <thead>
@@ -43,13 +46,15 @@
             <td><%=product.getBook_name()%></td>
             <td><%=product.getBook_price()%></td>
             <td width="10">
-                <form method="post">
+                <form method="post" action="delete.do">
+                    <input type="hidden" name="delete" value="<%=product.getBook_id()%>">
                     <input type="submit" value="减">
                 </form>
             </td>
             <td width="50px"><%=book_num%></td>
             <td width="10">
-                <form method="post">
+                <form method="post" action="add.do">
+                    <input type="hidden" name="add" value="<%=product.getBook_id()%>">
                     <input type="submit" value="加">
                 </form>
             </td>
@@ -65,6 +70,9 @@
     总价格为：<%=sum%><br/>
     <form method="post" action="checkout.do">
         <input type="submit" value="结账">
+    </form>
+    <form method="post" action="back.do">
+        <input type="submit" value="返回商品信息页面">
     </form>
 </div>
 
