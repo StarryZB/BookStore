@@ -48,7 +48,7 @@
             <td>
                 <form action="buy.do" method="post">
                     <input type="hidden" name="book_id" value="<%=product.getBook_id()%>">
-                    <input type="submit" value="购买">
+                    <input type="submit" value="加入购物车" class="btn btn-info">
                 </form>
             </td>
         </tr>

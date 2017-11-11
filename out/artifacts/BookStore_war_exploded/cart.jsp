@@ -48,14 +48,14 @@
             <td width="10">
                 <form method="post" action="delete.do">
                     <input type="hidden" name="delete" value="<%=product.getBook_id()%>">
-                    <input type="submit" value="减">
+                    <input type="submit" value="减" class="btn btn-danger">
                 </form>
             </td>
             <td width="50px"><%=book_num%></td>
             <td width="10">
                 <form method="post" action="add.do">
                     <input type="hidden" name="add" value="<%=product.getBook_id()%>">
-                    <input type="submit" value="加">
+                    <input type="submit" value="加" class="btn btn-success">
                 </form>
             </td>
         </tr>
@@ -69,10 +69,10 @@
 <div align="center">
     总价格为：<%=sum%><br/>
     <form method="post" action="checkout.do">
-        <input type="submit" value="结账">
+        <input type="submit" value="结账" class="btn btn-default">
     </form>
     <form method="post" action="back.do">
-        <input type="submit" value="返回商品信息页面">
+        <input type="submit" value="返回商品信息页面" class="btn btn-default">
     </form>
 </div>
 
