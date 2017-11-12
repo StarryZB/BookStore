@@ -74,7 +74,7 @@
     总价格为：<%=sum%><br/>
     <br/>
     <form method="post" action="checkout.do">
-        <input type="submit" value="结账" class="btn btn-default">
+        <input type="submit" value="结算" class="btn btn-default">
     </form>
 </div>
 </body>

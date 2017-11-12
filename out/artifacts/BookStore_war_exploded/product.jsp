@@ -29,10 +29,10 @@
 <div>
     <table class="table table-hover">
         <thead>
-        <th>商品</th>
-        <th>商品名称</th>
-        <th>价格</th>'
-        <th>买买买</th>
+        <th width="20%">商品</th>
+        <th width="40%">商品名称</th>
+        <th width="20%">价格</th>'
+        <th width="50px">买买买</th>
         </thead>
         <tbody>
         <%
@@ -58,7 +58,6 @@
         </tbody>
     </table>
 </div>
-
 
 </body>
 </html>
