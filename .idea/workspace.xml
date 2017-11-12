@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea81f4b5-5447-4337-983d-4d21592620d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/WEB-INF/classes/com/dao/ProductDao.class" afterPath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/WEB-INF/classes/com/dao/ProductDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/WEB-INF/classes/com/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/WEB-INF/classes/com/servlet/LoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/ProductDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/ProductDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/LoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/cart.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/cart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/product.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookStore_war_exploded/product.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/com/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cart.jsp" afterPath="$PROJECT_DIR$/web/cart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/product.jsp" afterPath="$PROJECT_DIR$/web/product.jsp" />
     </list>
     <ignored path="BookStore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +32,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/cart.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EncodingFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/filter/EncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -99,31 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/AddServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
               <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -182,13 +172,14 @@
         <option value="$PROJECT_DIR$/web/checkout.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" />
         <option value="dbtable:/b67c684a/9029fc5d-64eb-4bf8-9be8-b6636696dd9b/bookstore.product" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/PageServlet.java" />
         <option value="$PROJECT_DIR$/src/com/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/web/cart.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/BuyServlet.java" />
         <option value="$PROJECT_DIR$/web/product.jsp" />
+        <option value="$PROJECT_DIR$/src/com/filter/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -331,6 +322,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -927,12 +940,12 @@
       <workItem from="1510402469499" duration="5161000" />
       <workItem from="1510411013326" duration="5282000" />
       <workItem from="1510451152395" duration="9455000" />
-      <workItem from="1510473863626" duration="18705000" />
+      <workItem from="1510473863626" duration="19192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96093000" />
+    <option name="totallyTimeSpent" value="96580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -988,14 +1001,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1328,14 +1333,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1444,6 +1441,24 @@
         <state relative-caret-position="300">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
