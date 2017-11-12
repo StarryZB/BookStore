@@ -29,7 +29,8 @@ public class LoginServlet extends HttpServlet {
             user.setPsssword(password);
             session.setAttribute("user",user);
         }
-        List<Product> listProduct = new ProductDao().getListProduct();
+        List<Product> listProduct = new ProductDao().getListProduct(0,7);
+        req.setAttribute("begin",0);
         req.setAttribute("listproduct",listProduct);
         req.getRequestDispatcher("product.jsp").forward(req,resp);
     }

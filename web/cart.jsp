@@ -1,5 +1,6 @@
 <%@ page import="java.util.Map" %>
-<%@ page import="com.entity.Product" %><%--
+<%@ page import="com.entity.Product" %>
+<%@ page import="java.text.DecimalFormat" %><%--
   Created by IntelliJ IDEA.
   User: 34432
   Date: 2017/11/4
@@ -40,6 +41,8 @@
                 Product product = idproductmap.get(key);
                 int book_num = idnummap.get(key);
                 sum += product.getBook_price() * book_num;
+                DecimalFormat df = new DecimalFormat("#.00");
+                sum = Double.parseDouble(df.format(sum));
         %>
         <tr>
             <td><img width="20px" src="${pageContext.request.contextPath}/image/book.png"/></td>

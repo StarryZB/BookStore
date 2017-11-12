@@ -63,4 +63,14 @@
         <servlet-name>CheckOut</servlet-name>
         <url-pattern>/checkout.do</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Page</servlet-name>
+        <servlet-class>com.servlet.PageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Page</servlet-name>
+        <url-pattern>/page.do</url-pattern>
+    </servlet-mapping>
 </web-app>

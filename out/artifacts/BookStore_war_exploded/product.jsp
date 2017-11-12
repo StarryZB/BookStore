@@ -23,7 +23,6 @@
 %>
 <div align="center">
     <font face="楷体" size="6">欢迎用户：<%=user.getName()%></font>
-
 </div>
 
 <div>
@@ -57,6 +56,58 @@
         %>
         </tbody>
     </table>
+</div>
+
+<%
+    int lastbegin = (int) request.getAttribute("begin") - 7;
+    int nextbegin = (int) request.getAttribute("begin") + 7;
+    int lastpagenum = lastbegin / 7;
+    int nextpagenum = nextbegin / 7;
+%>
+
+<div align="center">
+    <%
+        if (lastpagenum < 0) {
+            %>
+    <div>
+        <form>
+            <input type="button" value="上一页" class="btn btn disabled">
+        </form>
+    </div>
+    <%
+        } else {
+            %>
+    <div>
+        <form method="get" action="page.do">
+            <input type="hidden" name="page" value="<%=lastpagenum%>">
+            <input type="hidden" name="way" value="last">
+            <input type="submit" value="上一页" class="btn btn-default">
+        </form>
+    </div>
+    <%
+        }
+    %>
+    <%
+        if (nextpagenum > 2) {
+    %>
+    <div>
+        <form>
+            <input type="button" value="下一页" class="btn btn disabled">
+        </form>
+    </div>
+    <%
+    } else {
+    %>
+    <div>
+        <form method="get" action="page.do">
+            <input type="hidden" name="page" value="<%=nextpagenum%>">
+            <input type="hidden" name="way" value="next">
+            <input type="submit" value="下一页" class="btn btn-default">
+        </form>
+    </div>
+    <%
+        }
+    %>
 </div>
 
 </body>

@@ -11,9 +11,9 @@ import java.util.List;
  */
 public class ProductDao {
 
-    public List<Product> getListProduct() {
+    public List<Product> getListProduct(int begin, int rows) {
         List<Product> productList = new ArrayList<Product>();
-        String sql = "SELECT * FROM product";
+        String sql = "SELECT * FROM product limit " + begin + " , " + rows;
         Connection connection = DBUtil.getConn();
         Statement statement = DBUtil.createStmt(connection);
         ResultSet resultSet = DBUtil.executeQuery(statement,sql);
@@ -44,7 +44,7 @@ public class ProductDao {
         try {
             while (resultSet.next()) {
                 product.setBook_name(resultSet.getString("book_name"));
-                product.setBook_price(resultSet.getInt("book_price"));
+                product.setBook_price(resultSet.getDouble("book_price"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
