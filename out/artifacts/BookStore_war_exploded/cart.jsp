@@ -42,7 +42,7 @@
                 sum += product.getBook_price() * book_num;
         %>
         <tr>
-            <td><img width="20px" src="book.png"/></td>
+            <td><img width="20px" src="${pageContext.request.contextPath}/image/book.png"/></td>
             <td><%=product.getBook_name()%></td>
             <td><%=product.getBook_price()%></td>
             <td width="10">
@@ -67,15 +67,15 @@
 </div>
 
 <div align="center">
-    总价格为：<%=sum%><br/>
-    <form method="post" action="checkout.do">
-        <input type="submit" value="结账" class="btn btn-default">
-    </form>
     <form method="post" action="back.do">
         <input type="submit" value="返回商品信息页面" class="btn btn-default">
     </form>
+    <br/>
+    总价格为：<%=sum%><br/>
+    <br/>
+    <form method="post" action="checkout.do">
+        <input type="submit" value="结账" class="btn btn-default">
+    </form>
 </div>
-
-
 </body>
 </html>

@@ -42,7 +42,7 @@
                 Product product = iterator.next();
         %>
         <tr id="<%=product.getBook_id()%>">
-            <td><img width="20px" src="book.png"/></td>
+            <td><img width="20px" src="${pageContext.request.contextPath}/image/book.png"/></td>
             <td><%=product.getBook_name()%></td>
             <td><%=product.getBook_price()%></td>
             <td>
@@ -58,7 +58,6 @@
         </tbody>
     </table>
 </div>
-
 
 </body>
 </html>

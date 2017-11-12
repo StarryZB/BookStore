@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.servlet.LoginServlet" %><%--
   Created by IntelliJ IDEA.
   User: 34432
   Date: 2017/11/3
@@ -35,6 +35,7 @@
       </script>
   </head>
 <body>
+
   <div align="center" style="margin-top: 100px">
     <form action="login.do" method="post" id="form">
       账号: <input type="text" name="name" id="name" style="margin-bottom: 15px"> <br>
