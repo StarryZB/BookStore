@@ -65,11 +65,13 @@
     int nextpagenum = nextbegin / 7;
 %>
 
+<%--需要一个直接跳转购物车的按钮，不必要求先购买才跳转--%>
+
 <div align="center">
     <%
         if (lastpagenum < 0) {
             %>
-    <div>
+    <div style="display:inline-block;">
         <form>
             <input type="button" value="上一页" class="btn btn disabled">
         </form>
@@ -77,7 +79,7 @@
     <%
         } else {
             %>
-    <div>
+    <div style="display:inline-block;">
         <form method="get" action="page.do">
             <input type="hidden" name="page" value="<%=lastpagenum%>">
             <input type="hidden" name="way" value="last">
@@ -90,7 +92,7 @@
     <%
         if (nextpagenum > 2) {
     %>
-    <div>
+    <div style="display:inline-block;">
         <form>
             <input type="button" value="下一页" class="btn btn disabled">
         </form>
@@ -98,7 +100,7 @@
     <%
     } else {
     %>
-    <div>
+    <div style="display:inline-block;">
         <form method="get" action="page.do">
             <input type="hidden" name="page" value="<%=nextpagenum%>">
             <input type="hidden" name="way" value="next">

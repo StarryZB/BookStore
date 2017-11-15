@@ -35,7 +35,13 @@
       </script>
   </head>
 <body>
-
+<%
+  if (session.getAttribute("user") != null) {
+    %>
+<jsp:forward page="/login.do"></jsp:forward>
+<%
+  }
+%>
   <div align="center" style="margin-top: 100px">
     <form action="login.do" method="post" id="form">
       账号: <input type="text" name="name" id="name" style="margin-bottom: 15px"> <br>

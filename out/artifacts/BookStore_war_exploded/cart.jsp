@@ -9,6 +9,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <html>
@@ -69,15 +70,16 @@
     </table>
 </div>
 
+<%--考虑是否添加清空--%>
 <div align="center">
     <form method="post" action="back.do">
         <input type="submit" value="返回商品信息页面" class="btn btn-default">
     </form>
-    <br/>
-    总价格为：<%=sum%><br/>
-    <br/>
+</div>
+<div style="float: right;margin-right: 50px">
+    合计：<i class="fa fa-cny"></i> <b style="color: red;font-size: 20px"><%=sum%></b>
     <form method="post" action="checkout.do">
-        <input type="submit" value="结算" class="btn btn-default">
+        <input type="submit" value="结算" class="btn btn-lg">
     </form>
 </div>
 </body>
