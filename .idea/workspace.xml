@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea81f4b5-5447-4337-983d-4d21592620d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/BuyServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/BuyServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/LoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/com/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/servlet/BuyServlet.java" afterPath="$PROJECT_DIR$/src/com/servlet/BuyServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/servlet/CheckOutServlet.java" afterPath="$PROJECT_DIR$/src/com/servlet/CheckOutServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/cart.jsp" afterPath="$PROJECT_DIR$/web/cart.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/product.jsp" afterPath="$PROJECT_DIR$/web/product.jsp" />
-    </list>
+    <list default="true" id="ea81f4b5-5447-4337-983d-4d21592620d8" name="Default" comment="" />
     <ignored path="BookStore.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -934,15 +924,15 @@
       <workItem from="1510451152395" duration="9455000" />
       <workItem from="1510473863626" duration="20054000" />
       <workItem from="1510713650403" duration="6984000" />
-      <workItem from="1510728023006" duration="5094000" />
+      <workItem from="1510728023006" duration="5599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109520000" />
+    <option name="totallyTimeSpent" value="110025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
