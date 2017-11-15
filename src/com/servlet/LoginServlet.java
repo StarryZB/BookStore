@@ -28,8 +28,6 @@ public class LoginServlet extends HttpServlet {
             user.setName(name);
             user.setPsssword(password);
             session.setAttribute("user",user);
-        } else {
-            //注销登录功能，还在考虑做不做，和怎么做
         }
         List<Product> listProduct = new ProductDao().getListProduct(0,7);
         req.setAttribute("begin",0);

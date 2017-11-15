@@ -47,7 +47,7 @@
             <td>
                 <form action="buy.do" method="post">
                     <input type="hidden" name="book_id" value="<%=product.getBook_id()%>">
-                    <input type="submit" value="加入购物车" class="btn btn-info">
+                    <input type="submit" value="加入购物车" class="btn btn-primary">
                 </form>
             </td>
         </tr>
@@ -65,7 +65,11 @@
     int nextpagenum = nextbegin / 7;
 %>
 
-<%--需要一个直接跳转购物车的按钮，不必要求先购买才跳转--%>
+<div align="center">
+    <form method="get" action="/buy.do">
+        <input type="submit" value="查看购物车" class="btn btn-info">
+    </form>
+</div>
 
 <div align="center">
     <%

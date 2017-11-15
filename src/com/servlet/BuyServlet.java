@@ -56,6 +56,13 @@ public class BuyServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req,resp);
+        HttpSession session = req.getSession();
+        if (session.getAttribute("idproductmap") == null) {
+            Map<String,Product> idproductmap = new HashMap<String,Product>();
+            Map<String,Integer> idnummap = new HashMap<String,Integer>();
+            session.setAttribute("idproductmap",idproductmap);
+            session.setAttribute("idnummap",idnummap);
+        }
+        req.getRequestDispatcher("cart.jsp").forward(req,resp);
     }
 }

@@ -13,7 +13,7 @@ public class ProductDao {
 
     public List<Product> getListProduct(int begin, int rows) {
         List<Product> productList = new ArrayList<Product>();
-        String sql = "SELECT * FROM product limit " + begin + " , " + rows;
+        String sql = "SELECT * FROM product LIMIT " + begin + " , " + rows;
         Connection connection = DBUtil.getConn();
         Statement statement = DBUtil.createStmt(connection);
         ResultSet resultSet = DBUtil.executeQuery(statement,sql);

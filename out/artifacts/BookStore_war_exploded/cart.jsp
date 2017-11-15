@@ -70,10 +70,9 @@
     </table>
 </div>
 
-<%--考虑是否添加清空--%>
 <div align="center">
     <form method="post" action="back.do">
-        <input type="submit" value="返回商品信息页面" class="btn btn-default">
+        <input type="submit" value="返回商品信息页面" class="btn btn-info">
     </form>
 </div>
 <div style="float: right;margin-right: 50px">
