@@ -1,4 +1,4 @@
-create database bookstore;
+CREATE database bookstore;
 
 use bookstore;
 
@@ -9,8 +9,8 @@ CREATE TABLE `product` (
   PRIMARY KEY (`book_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8
 
-insert into product (book_id,book_name,book_price)
-values
+INSERT INTO product (book_id,book_name,book_price)
+VALUES
 ('1', 'JAVA编程思想', '89.1'),
 ('2', 'Java核心技术一', '71.3'),
 ('3', '算法(第四版)', '82.9'),

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea81f4b5-5447-4337-983d-4d21592620d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SQL/Product.sql" afterPath="$PROJECT_DIR$/SQL/Product.sql" />
     </list>
     <ignored path="BookStore.iws" />
@@ -53,17 +52,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Product.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SQL/Product.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="821">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="50">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="checkout.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/checkout.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -866,12 +865,12 @@
       <workItem from="1510473863626" duration="20054000" />
       <workItem from="1510713650403" duration="6984000" />
       <workItem from="1510728023006" duration="5984000" />
-      <workItem from="1510838154234" duration="171000" />
+      <workItem from="1510838154234" duration="870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110581000" />
+    <option name="totallyTimeSpent" value="111280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -1319,18 +1318,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/Product.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/checkout.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/Product.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
