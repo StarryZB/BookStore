@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea81f4b5-5447-4337-983d-4d21592620d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SQL/Product.sql" afterPath="$PROJECT_DIR$/SQL/Product.sql" />
-    </list>
+    <list default="true" id="ea81f4b5-5447-4337-983d-4d21592620d8" name="Default" comment="" />
     <ignored path="BookStore.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -865,16 +863,16 @@
       <workItem from="1510473863626" duration="20054000" />
       <workItem from="1510713650403" duration="6984000" />
       <workItem from="1510728023006" duration="5984000" />
-      <workItem from="1510838154234" duration="870000" />
+      <workItem from="1510838154234" duration="882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111280000" />
+    <option name="totallyTimeSpent" value="111292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
