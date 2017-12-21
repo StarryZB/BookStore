@@ -2,7 +2,7 @@
 <%@ page import="com.entity.Product" %>
 <%@ page import="java.text.DecimalFormat" %><%--
   Created by IntelliJ IDEA.
-  User: 34432
+  User: StarryZB
   Date: 2017/11/4
   Time: 18:30
   To change this template use File | Settings | File Templates.
