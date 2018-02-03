@@ -29,7 +29,13 @@ public class LoginServlet extends HttpServlet {
             user.setPsssword(password);
             session.setAttribute("user",user);
         }
-        List<Product> listProduct = new ProductDao().getListProduct(0,7);
+        String bookname = req.getParameter("bookname");
+        List<Product> listProduct;
+        if (bookname != null && !"".equals(bookname)) {
+            listProduct = new ProductDao().getProductByName(bookname);
+        } else {
+            listProduct = new ProductDao().getListProduct(0,7);
+        }
         req.setAttribute("begin",0);
         req.setAttribute("listproduct",listProduct);
         req.getRequestDispatcher("product.jsp").forward(req,resp);
@@ -37,6 +43,6 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doPost(req,resp);
+        this.doPost(req,resp);
     }
 }

@@ -38,12 +38,12 @@
 <%
   if (session.getAttribute("user") != null) {
     %>
-<jsp:forward page="/login.do"></jsp:forward>
+<jsp:forward page="/login.action"></jsp:forward>
 <%
   }
 %>
   <div align="center" style="margin-top: 100px">
-    <form action="login.do" method="post" id="form">
+    <form action="login.action" method="post" id="form">
       账号: <input type="text" name="name" id="name" style="margin-bottom: 15px"> <br>
       密码: <input type="password" name="password" id="password" style="margin-bottom: 15px"> <br>
       <input type="button" value="登录" onclick="check()" class="btn btn-primary" style="margin-right: 20px">

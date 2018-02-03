@@ -11,7 +11,7 @@
 
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
-        <url-pattern>/login.do</url-pattern>
+        <url-pattern>/login.action</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -21,7 +21,7 @@
 
     <servlet-mapping>
         <servlet-name>Buy</servlet-name>
-        <url-pattern>/buy.do</url-pattern>
+        <url-pattern>/buy.action</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -31,7 +31,7 @@
 
     <servlet-mapping>
         <servlet-name>Delete</servlet-name>
-        <url-pattern>/delete.do</url-pattern>
+        <url-pattern>/delete.action</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -41,7 +41,7 @@
 
     <servlet-mapping>
         <servlet-name>Add</servlet-name>
-        <url-pattern>/add.do</url-pattern>
+        <url-pattern>/add.action</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -51,7 +51,7 @@
 
     <servlet-mapping>
         <servlet-name>Back</servlet-name>
-        <url-pattern>/back.do</url-pattern>
+        <url-pattern>/back.action</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -61,7 +61,7 @@
 
     <servlet-mapping>
         <servlet-name>CheckOut</servlet-name>
-        <url-pattern>/checkout.do</url-pattern>
+        <url-pattern>/checkout.action</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -71,7 +71,17 @@
 
     <servlet-mapping>
         <servlet-name>Page</servlet-name>
-        <url-pattern>/page.do</url-pattern>
+        <url-pattern>/page.action</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Serach</servlet-name>
+        <servlet-class>com.servlet.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Serach</servlet-name>
+        <url-pattern>/serach.action</url-pattern>
     </servlet-mapping>
 
     <filter>

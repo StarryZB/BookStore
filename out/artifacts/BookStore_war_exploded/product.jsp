@@ -26,6 +26,22 @@
 </div>
 
 <div>
+    <form action="serach.action" id="serach" method="post">
+        <table>
+            <tbody>
+            <tr>
+                <td width="90" align="right">书本名称：</td>
+                <td>
+                    <input name="bookname" type="text" class="form-control" placeholder="请输入搜索内容"/>
+                </td>
+                <td width="85" align="right"><input type="submit" class="btn btn-default" value="查 询" /></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+<div>
     <table class="table table-hover">
         <thead>
         <th width="20%">商品</th>
@@ -45,7 +61,7 @@
             <td><%=product.getBook_name()%></td>
             <td><%=product.getBook_price()%></td>
             <td>
-                <form action="buy.do" method="post">
+                <form action="buy.action" method="post">
                     <input type="hidden" name="book_id" value="<%=product.getBook_id()%>">
                     <input type="submit" value="加入购物车" class="btn btn-primary">
                 </form>
@@ -66,7 +82,7 @@
 %>
 
 <div align="center">
-    <form method="get" action="/buy.do">
+    <form method="get" action="/buy.action">
         <input type="submit" value="查看购物车" class="btn btn-info">
     </form>
 </div>
@@ -84,7 +100,7 @@
         } else {
             %>
     <div style="display:inline-block;">
-        <form method="get" action="page.do">
+        <form method="get" action="page.action">
             <input type="hidden" name="page" value="<%=lastpagenum%>">
             <input type="hidden" name="way" value="last">
             <input type="submit" value="上一页" class="btn btn-default">
@@ -105,7 +121,7 @@
     } else {
     %>
     <div style="display:inline-block;">
-        <form method="get" action="page.do">
+        <form method="get" action="page.action">
             <input type="hidden" name="page" value="<%=nextpagenum%>">
             <input type="hidden" name="way" value="next">
             <input type="submit" value="下一页" class="btn btn-default">

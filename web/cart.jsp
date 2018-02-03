@@ -25,6 +25,7 @@
 <div align="center">
     <font face="楷体" size="6">购物车</font>
 </div>
+
 <div>
     <table class="table table-hover">
         <thead>
@@ -50,14 +51,14 @@
             <td><%=product.getBook_name()%></td>
             <td><%=product.getBook_price()%></td>
             <td width="10">
-                <form method="post" action="delete.do">
+                <form method="post" action="delete.action">
                     <input type="hidden" name="delete" value="<%=product.getBook_id()%>">
                     <input type="submit" value="减" class="btn btn-danger">
                 </form>
             </td>
             <td width="50px"><%=book_num%></td>
             <td width="10">
-                <form method="post" action="add.do">
+                <form method="post" action="add.action">
                     <input type="hidden" name="add" value="<%=product.getBook_id()%>">
                     <input type="submit" value="加" class="btn btn-success">
                 </form>
@@ -71,13 +72,13 @@
 </div>
 
 <div align="center">
-    <form method="post" action="back.do">
+    <form method="post" action="back.action">
         <input type="submit" value="返回商品信息页面" class="btn btn-info">
     </form>
 </div>
 <div style="float: right;margin-right: 50px">
     合计：<i class="fa fa-cny"></i> <b style="color: red;font-size: 20px"><%=sum%></b>
-    <form method="post" action="checkout.do">
+    <form method="post" action="checkout.action">
         <input type="submit" value="结算" class="btn btn-lg">
     </form>
 </div>
