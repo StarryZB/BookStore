@@ -7,6 +7,7 @@ import java.io.IOException;
 
 /**
  * Created by StarryZB on 2017/11/12.
+ * 字符编码过滤器
  */
 public class EncodingFilter implements Filter {
     @Override

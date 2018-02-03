@@ -12,6 +12,7 @@ import java.util.Map;
 
 /**
  * Created by StarryZB on 2017/11/11.
+ * 删除商品
  */
 public class DeleteServlet extends HttpServlet {
     @Override

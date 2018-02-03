@@ -4,6 +4,7 @@ import java.util.List;
 
 /**
  * Created by StarryZB on 2017/11/4.
+ * 用户实体类
  */
 public class User {
     public String name;

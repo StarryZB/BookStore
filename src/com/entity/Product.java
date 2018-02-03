@@ -2,6 +2,7 @@ package com.entity;
 
 /**
  * Created by StarryZB on 2017/11/3.
+ * 商品实体类
  */
 public class Product {
     public int book_id;

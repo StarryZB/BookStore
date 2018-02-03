@@ -12,6 +12,7 @@ import java.util.Map;
 
 /**
  * Created by StarryZB on 2017/11/11.
+ * 添加商品
  */
 public class AddServlet extends HttpServlet {
     @Override

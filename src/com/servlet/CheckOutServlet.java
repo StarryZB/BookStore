@@ -8,6 +8,7 @@ import java.io.IOException;
 
 /**
  * Created by StarryZB on 2017/11/11.
+ * 结账页面初始化
  */
 public class CheckOutServlet extends HttpServlet {
     @Override

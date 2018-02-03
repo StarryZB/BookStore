@@ -4,6 +4,7 @@ import java.sql.*;
 
 /**
  * Created by StarryZB on 2017/11/3.
+ * 数据库工具类
  */
 public class DBUtil {
     private static final String driver = "com.mysql.jdbc.Driver"; //数据库驱动

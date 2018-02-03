@@ -8,6 +8,7 @@ import java.util.List;
 
 /**
  * Created by StarryZB on 2017/11/3.
+ * 数据库封装
  */
 public class ProductDao {
 
